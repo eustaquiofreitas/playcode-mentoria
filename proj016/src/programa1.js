@@ -67,9 +67,9 @@ function tabelaPeriodica() {
 		Exemplo: numerosImpares(10) deve retornar o array [1, 3, 5, 7, 9]
 *******************************************************************************/
 function numerosImpares(limite) {
-	var espaco = " ";
+	var espaco = "";
 		for(i = 1; i<= limite; i++){
-			espaco = espaco +  " " + i++;	
+			espaco += " " + i++;	
 		}
 		return  [espaco];
 }
