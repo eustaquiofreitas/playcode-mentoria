@@ -8,12 +8,12 @@
 function numerosAte20() {
 	var numero = " ";
 	var i;
-	for (i = 0; i <= 20; i++) {
+	for (i = 0; i<= 20; i++){
 		numero = numero + " "  +i;
 	}
 	return numero;
 }
-console.log("Tarefa: 1" +numerosAte20());
+console.log("Tarefa: 1>>" +numerosAte20());
 
 /*******************************************************************************
 	Tarefa 2:
@@ -25,11 +25,11 @@ console.log("Tarefa: 1" +numerosAte20());
 function numerosImpares(limite) {
 	var espaco = " ";
 		for(i = 1; i<= limite; i++){
-			espaco = espaco+ " " +i++;			
+			espaco = espaco+ " " + i++;	
 		}
-		return espaco;
+		return limite = [espaco];
 }
-console.log("Tarefa: 2" +numerosImpares(21));
+numerosImpares(50);
 
 /*******************************************************************************
 	Tarefa 3:
@@ -45,4 +45,6 @@ function contagemRegressiva() {
 	}
 	return numero;
 }
-console.log("Tarefa: 3" +contagemRegressiva());
+console.log("Tarefa: 3>>" +contagemRegressiva());
+
+// atividades exercicio 1933
